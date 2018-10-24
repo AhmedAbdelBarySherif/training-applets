@@ -1,0 +1,30 @@
+<svg id="goal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52.572 52.572">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff7816;
+      }
+
+      .cls-2 {
+        fill: #6e6e6e;
+      }
+
+      .cls-3 {
+        fill: #444;
+      }
+
+      .cls-4 {
+        fill: #ffd400;
+      }
+
+      .cls-5 {
+        fill: #fdbf00;
+      }
+    </style>
+  </defs>
+  <path id="Path_31" data-name="Path 31" class="cls-1" d="M267.369,15.5l1.54-8.471L267.369,0h-17.58l7.7,7.8-7.7,7.7Zm0,0" transform="translate(-224.141)"/>
+  <path id="Path_32" data-name="Path 32" class="cls-2" d="M421,0h3.08V27.826H421Zm0,0" transform="translate(-377.772)"/>
+  <path id="Path_33" data-name="Path 33" class="cls-3" d="M436,0h1.54V27.826H436Zm0,0" transform="translate(-391.232)"/>
+  <path id="Path_34" data-name="Path 34" class="cls-4" d="M37.067,241v6.161H24.746v6.161H12.424v6.161H0v9.344H52.572V241Zm0,0" transform="translate(0 -216.254)"/>
+  <path id="Path_35" data-name="Path 35" class="cls-5" d="M436,241h7.8v27.826H436Zm0,0" transform="translate(-391.232 -216.254)"/>
+</svg>

@@ -1,0 +1,240 @@
+body{
+    direction:rtl;
+    text-align: right;
+    font-family:DIN-LIGHT,sans-serif;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+/* 
+#nav-courses {
+    position: relative;
+    background-color: #fff;
+    height: 90vh
+} */
+
+h01,h2,h3,h4,h5,h6{
+ color: #0d7df9;
+ font-family: DIN-MEDIUM;
+}
+.color-gray{
+    color: #6f7070
+}
+.rounded{
+	border-radius: 6px !important
+}
+/*
+
+***********************
+**********************
+card style 
+**********************
+******************
+
+*/
+.scroll-left {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow: auto;
+	white-space: nowrap;
+	counter-reset: list;
+	direction: rtl;
+	text-align: right;
+}
+.owl-carousel .owl-stage {
+	display: flex;
+}
+.card {
+	-webkit-scroll-snap-coordinate: 50% 0%;
+	-ms-scroll-snap-coordinate: 50% 0%;
+	scroll-snap-coordinate: 50% 0%;
+	overflow: hidden;
+	display: inline-block;
+	position: relative;
+	counter-increment: list;
+	width: 100%;
+	height: auto;
+	color: #666;
+	background: #ffff;
+	font-family: DIN-MEDIUM;
+	border-radius: 10px;
+}
+.card:first-child {
+	-webkit-scroll-snap-coordinate: 50% 0%, 100% 0%;
+	-ms-scroll-snap-coordinate: 50% 0%, 100% 0%;
+	scroll-snap-coordinate: 50% 0%, 100% 0%;
+}
+.card:last-child {
+	-webkit-scroll-snap-coordinate: 50% 0%, 0% 0%;
+	-ms-scroll-snap-coordinate: 50% 0%, 0% 0%;
+	scroll-snap-coordinate: 50% 0%, 0% 0%;
+}
+.card-courseInfo .card-courseInfo-img {
+	width: 100%;
+	border-radius: 8px;
+}
+.card-courseInfo{
+    cursor: pointer;
+}
+.card-courseInfo:hover{
+    opacity: 0.5;
+}
+
+.card-courseInfo-instructor {
+	font-size: 12px;
+    color: #6f7070;
+    margin-bottom: 4px;
+}
+.card-courseInfo-name {
+	font-size: 15px;
+	color: #0d7efa;
+}
+.card-courseInfo-content {
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: -25px;
+}
+.heartHover {
+	background-image: url(../images/favorite-heartred.svg) !important;
+	background-repeat: no-repeat;
+}
+.calenderHover {
+	background-image: url(../images/calendar_blue.svg) !important;
+	background-repeat: no-repeat;
+}
+.card-courseInfo-react .card-react-heartImg:hover, .card-courseInfo-react .card-react-heartImg:active {
+	background-image: url(../images/favorite-heartred.svg);
+	background-repeat: no-repeat;
+	background-origin: center;
+}
+.card-courseInfo-react span:last-of-type:hover {
+	background-image: url(../images/calendar_blue.svg);
+	background-repeat: no-repeat;
+	background-origin: center;
+}
+.card-courseInfo-react .card-react-heartImg {
+	background-image: url(../images/favorite-heartred.svg);
+	background-repeat: no-repeat;
+	background-origin: center;
+}
+.card-courseInfo-react .card-react-calenderImg {
+	background-image: url(../images/calendar.svg);
+    background-repeat: no-repeat;
+	background-origin: center;
+}
+.card-courseInfo-react {
+	margin-top: -10px;
+	margin-bottom: 20px;
+	display: block;
+	max-height: 30px;
+	z-index: 10;
+}
+.card-courseInfo-react>span {
+	cursor: pointer;
+	height: 35px;
+	width: 35px;
+}
+.datepicker-me-class>.form-control {
+	bottom: 32px;
+	left: 25px;
+	position: absolute;
+	visibility: hidden;
+}
+.datepicker-me-class {
+	position: absolute;
+	bottom: 40px;
+	left: 42px;
+}
+@media (max-width:650px) {
+	.owl-carousel .owl-stage .active {
+		width: 160px !important;
+		margin-left: 10px;
+	}
+	.owl-carousel .owl-stage .owel-item--custom {
+		width: 160px !important;
+		margin-left: 10px;
+	}
+	.card-courseInfo-react>span {
+		height: 25px;
+		width: 25px;
+		position: relative;
+		z-index: 5;
+	}
+	.card-courseInfo-react {
+		margin-bottom: 15px;
+	}
+	.card-courseInfo-content {
+		margin-bottom: -30px;
+	}
+}
+
+
+/* end style of  card  */
+
+/*card-vertical*/
+.card-vertical{
+    cursor: pointer;
+    margin: 15px 20px;
+    overflow: hidden;
+}
+.card-vertical.card-padding{
+    padding:10px
+}
+.card-vertical .card-vertical-img{
+    height: 100%;
+    max-height: 90px;
+    width: auto
+}
+.card-vertical  .card-vertical-details{
+    margin-right: 12px;
+    padding: 5px 0;
+}
+.card-vertical  .card-vertical-details .card-vertical-name{
+    display: block;
+    color: #a1a2a2;
+    font-size: .9rem;
+    margin-bottom: 10px;
+
+}
+/*progress-card-vertical */
+.progress-card-vertical .card-vertical-title{
+    margin-bottom: 2px;
+    font-size: .8rem
+    
+}
+.progress-card-vertical .card-vertical-details .card-vertical-name{
+    font-size: .8rem;
+    display: inline;
+}
+.progress-card-vertical  .starrr{
+    display: inline;
+    float: none;
+}
+.progress-card-vertical  .starrr a{
+    font-size: .5rem
+}
+.progress-card-vertical .card-vertical-p{
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
